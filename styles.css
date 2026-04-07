@@ -1,1 +1,48 @@
 /* your code here */
+.product{
+	display:flex;
+	justify-content:center;
+	background-color:lightgreen;
+	width:100%;
+	height:100%;
+}
+.photo-main{
+	background-color:greenyellow;
+}
+.controls{
+	justify-content:space-between;
+	color:white;
+}
+.photo-album{
+	background-color:white;
+	
+}
+.img-item{
+	border:2px solid black;
+	display:inline-block;
+	margin:5px;
+}
+.product__info{
+	background-color:white;
+}
+.variant{
+	width:400px;
+}
+.varient-apple{
+	width:50px;
+	height:50px;
+	border:2px solid black;
+	display:inline-block;
+	padding:5px;
+}
+.price{
+	color:red;
+	span{
+		font-size:24px;
+	}
+}
+#add{
+	background-color:red;
+	color:white;
+	padding:10px;
+}
